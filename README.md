@@ -125,7 +125,7 @@ Copy and paste the user's Id used
 
 Once authenticated, you can access a list of a client's yearly earnings by entering their email address directly into the URL. For example: **http://127.0.0.1:5000/clients/alice.johnson@example.com**. 
 
-Use security testing techniques to attempt displaying the current database user. If successful, document the URL was used during the test. 
+Use security testing techniques to attempt displaying the current database user. If successful, document the URL used during the test. 
 
 ```
 Copy and paste the URL used 
@@ -133,7 +133,7 @@ Copy and paste the URL used
 
 ## Determining the Database Name 
 
-Use security testing techniques to determine the current database. If successful, document the URL was used during the test. 
+Use security testing techniques to determine the current database. If successful, document the URL used during the test. 
 
 ```
 Copy and paste the URL used 
@@ -141,7 +141,7 @@ Copy and paste the URL used
 
 ## Determing the Tables Names
 
-Use security testing techniques to determine the table names of the database. If successful, document the URL was used during the test. Hint: in MySQL the table names of a database can be retrieved from the system's table **information_schema.tables**. 
+Use security testing techniques to determine the table names of the database. If successful, document the URL used during the test. Hint: in MySQL the table names of a database can be retrieved from the system's table **information_schema.tables**. 
 
 ```
 Copy and paste the URL used 
@@ -149,7 +149,7 @@ Copy and paste the URL used
 
 ## Determing the Structure of Each Table
 
-Use security testing techniques to determine the structure (name of the column and its data type) of each table of the database. If successful, document the URLs was used during the test. Hint: in MySQL the structure of a table can be retrieved from the system's table **information_schema.columns**. 
+Use security testing techniques to determine the structure (name of the column and its data type) of each table of the database. If successful, document the URLs used during the test. Hint: in MySQL the structure of a table can be retrieved from the system's table **information_schema.columns**. 
 
 ```
 Copy and paste the URL used to learn the structure of table Clients
