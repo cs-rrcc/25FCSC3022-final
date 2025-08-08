@@ -107,7 +107,11 @@ Run [/src/port_scanner.py](/src/port_scanner.py) and copy and paste its output b
 Copy and paste the output of port_scanner here!
 ```
 
-While a database running on its default port may strongly suggest the vendor being used, it does not guarantee accurate identification. 
+While a database running on its default port may strongly suggest the vendor in use, this alone does not guarantee accurate identification. Conduct research and list more sophisticated methods that can be used to accurately identify database vendors beyond just checking the port number.
+
+```
+Share your findings here!
+```
 
 ## Bypassing User Authentication
 
