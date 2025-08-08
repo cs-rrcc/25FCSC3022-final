@@ -115,7 +115,7 @@ Share your findings here!
 
 ## Bypassing User Authentication
 
-Use security testing techniques to attempt bypassing the app's user authentication. If successful, document which user ID was used during the test. 
+Use security testing techniques to attempt bypassing the app's user authentication. If successful, document which user ID (in the login screen) was used during the test. 
 
 ```
 Copy and paste the user's Id used
