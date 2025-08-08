@@ -73,7 +73,7 @@ Click on the **Sign Up** button and create a new user with **id='sally'** and **
 
 ![pics/pic2.png](pics/pic2.png)
 
-User 'sally' should be created only after confirmation. However, new users are initially added to the database without authorization to access the app. Authorization must be granted manually by the database administrator.
+User 'sally' should be created after confirmation. However, new users are initially added to the database without authorization to access the app. Authorization must be granted manually by the database administrator.
 To authorize a newly created user to log in, use the **SQL UPDATE** statement provided in [taxes.sql](taxes.sql) and shown below: 
 
 ```
