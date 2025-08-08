@@ -1,6 +1,6 @@
 # Overview
 
-In this assignment you will perform a structured internal security test and audit on a provided web application to demonstrate how it has been vulnerable to systematic external attacks, particularly SQL injection. They will enable MySQL logging, simulate attacks, analyze logs, and produce comprehensive security reports with recommendations. 
+In this assignment you will perform a structured internal security test and audit on a provided web application to demonstrate how it has been vulnerable to systematic external attacks, particularly SQL injection. You will enable MySQL logging, simulate attacks, analyze logs, and produce comprehensive security reports with recommendations. 
 
 # Disclaimer 
 
