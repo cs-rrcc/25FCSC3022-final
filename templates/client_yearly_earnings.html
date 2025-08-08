@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block main %}
+        <h2>{{client_yearly_earnings[0].name}}'s Yearly Earnings</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Total Earned (US$)</th>
+            </tr>
+            
+            {%for client_yearly_earning in client_yearly_earnings%}
+                {%if loop.index % 2 == 0%}
+                    <tr class="even_row">
+                {%else%}
+                    <tr class="odd_row">
+                {%endif%}
+                    <td>{{client_yearly_earning.year}}</td>
+                    <td>{{client_yearly_earning.total_earned}}</td>                    
+                </tr>
+            {% endfor %}
+
+        </table>
+        <br />
+{% endblock %}
