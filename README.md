@@ -73,7 +73,7 @@ Click on the **Sign Up** button and create a new user with **id='sally'** and **
 
 ![pics/pic2.png](pics/pic2.png)
 
-User 'sally' should be created after confirmation. However, new users are initially added to the database without authorization to access the app. Authorization must be granted manually by the database administrator.
+User 'sally' are automatically created after confirmation. However, new users are initially added to the database without authorization to access the app. Authorization must be granted manually by the database administrator.
 To authorize a newly created user to log in, use the **SQL UPDATE** statement provided in [taxes.sql](taxes.sql) and shown below: 
 
 ```
@@ -101,7 +101,7 @@ Thr security approach used will involve active reconnaissance, where direct inte
 
 Normally, a database system running behind a web application should be protected by firewall rules that restrict access to connections originating only from the web server. However, for the sake of simplification in this project, we assume that such protections are not in place. As a result, the security testing machine has direct access to the database system.
 
-Run [/src/port_scanner.py] and copy and paste its output below: 
+Run [/src/port_scanner.py](/src/port_scanner.py) and copy and paste its output below: 
 
 ```
 Copy and paste the output of port_scanner here!
