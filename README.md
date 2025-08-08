@@ -184,7 +184,7 @@ Use the script located at [src/password_cracker.py](src/password_cracker.py) to 
 At this point, you have direct access to the database; however, the user **tax_reader** has limited privileges. Would it be reasonable to assume that, given the existence of a **tax_reader** account, there might also be a **tax_writer** user with elevated privileges?
 
 ```
-Provide your answer here, along with a plausible justification to support your reasoning.
+Share your thoughts below, including whether the choice of database user raises any security concerns.
 ```
 
 Assuming that there should be a **tax_writer** user, use the previous script once more but now targeting the database user **tax_writer**. 
