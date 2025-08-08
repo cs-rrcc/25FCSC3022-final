@@ -16,7 +16,9 @@ Refer to Homework 13 and ensure you have built a custom MySQL Docker image with 
 
 Once the image is built, launch a container from it, updating the volume mappings as needed to support your logging configuration. 
 
-Next, after reviewing the database model implemented in [taxes.sql](taxes.sql), create a view named **ClientYearlyEarnings** that generates the following output based on the initial data inserted by the SQL script.
+Next, after reviewing the database model implemented in [taxes.sql](taxes.sql), start a MySQL shell and create the **taxes** database using the SQL statements provided in [taxes.sql](taxes.sql).
+
+Create a view named **ClientYearlyEarnings** that generates the following output based on the initial data inserted by the SQL script.
 
 ```
 +----------------------------+----------------+------+-------------+
@@ -33,8 +35,6 @@ Next, after reviewing the database model implemented in [taxes.sql](taxes.sql), 
 | carol.martinez@example.com | Carol Martinez | 2024 |   105000.00 |
 +----------------------------+----------------+------+-------------+
 ```
-
-Start a MySQL shell and create the **taxes** database using the SQL statements provided in [taxes.sql](taxes.sql).
 
 # Web App Setup
 
